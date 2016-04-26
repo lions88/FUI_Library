@@ -1,0 +1,25 @@
+1、初始化创建仓库
+git init [dir]
+
+2、添加文件
+git add [file]
+
+3、提交文件
+git add [file]				把文件修改添加到暂存区
+git commit -m "xxx" [file]		把暂存区的所有内容提交到当前分支
+
+4、查看本地修改
+git diff [file]
+
+5、查看状态
+git status [file]
+
+6、查看日志（3次）
+git log [file]
+git log --pretty=oneline
+
+7、回退
+git reset --hard HEAD^  HEAD^^ commit_id
+
+8、记录每一次命令，查看commit_id
+git reflog
